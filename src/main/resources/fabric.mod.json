@@ -3,23 +3,17 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ACOordHud",
+  "description": "I AM THE BEST PROGRAMMER THERE EVER WAS AND THERES NOTHING ANYONE CAN SAY OR DO TO STOP ME",
   "authors": [
-    "Me!"
+    "Aconamos"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.ACOordHud.ACOordHudMod"
     ]
   },
   "mixins": [
