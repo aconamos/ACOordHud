@@ -9,7 +9,7 @@
     "Aconamos"
   ],
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/acoordhud/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -17,7 +17,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "acoordhud.mixins.json"
   ],
 
   "depends": {
