@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.ACOordHud.mixin",
+  "package": "net.aconamos.ACOordHud.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
-    "ACOordHudMixin"
+    "ACOordHudMixin",
+    "OptionsScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
