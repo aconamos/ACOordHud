@@ -69,6 +69,9 @@ public class HudConfigScreen extends Screen {
     }
 
     public void render(MatrixStack matrices, int mouseX, int mouseY, float delta) {
+        if (this.client.world == null) {
+            this.renderBackground(matrices);
+        }
         this.textRenderer.drawWithShadow(matrices, "x_offset: ", this.width / 2 - 98, this.height / 2 + 4 - 64 + 20 * 0, 0xFFFFFF);
         this.xOffsetWidget.render(matrices, mouseX, mouseY, delta);
         this.textRenderer.drawWithShadow(matrices, "y_offset: ", this.width / 2 - 98, this.height / 2 + 4 - 64 + 20 * 1, 0xFFFFFF);

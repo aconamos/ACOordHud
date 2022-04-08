@@ -21,7 +21,7 @@ public class ACOordHudMixin {
 		return ((double)((int)(value * 10))) / 10;
 	}
 	@Inject(at = @At("HEAD"), method = "render")
-	private void Test(MatrixStack matrices, float tickDelta, CallbackInfo callbackInfo) {
+	private void render(MatrixStack matrices, float tickDelta, CallbackInfo callbackInfo) {
 		if ( !this.client.options.debugEnabled ) {
 			Vec3d pos = this.client.player.getPos();
 			this.client.textRenderer.drawWithShadow(matrices, "x: " + format(pos.x), Config.x_offset, Config.y_offset + Config.y_margin * 0, Config.color);
